@@ -1,0 +1,184 @@
+<!-- HTML (PAGE 04)
+===================================== -->
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>page04</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header>
+    <h2>REDES</h2>
+    <h5>Comunicación entre Computadores</h5>
+  </header>
+  <hr>
+  <section>
+
+        <h3 class="text-center">FUNDAMENTOS DE REDES</h3>
+        <div id="img"><img src="../img/redes.png" alt=""></div>
+        <h5>1.Introducción</h5>
+        <ul>
+          <li>
+            Definición: Una red es un conjunto de 
+            dispositivos (nodos) conectados entre sí para compartir recursos, datos y servicios.
+          </li>
+          <li>
+            Importancia: Hoy en día, las redes son la columna vertebral de la comunicación global, 
+            desde una red Wi-Fi doméstica hasta la inmensidad de Internet.
+          </li>
+          <li>
+            Objetivo: Entender cómo viaja la información desde un punto A hasta un punto B de 
+            forma eficiente y segura.
+          </li>
+        </ul>
+        <h5>2. Modelos de Referencia: OSI y TCP/IP</h5>
+        Son arquitecturas que dividen el proceso de comunicación 
+        en capas para facilitar su estudio y estandarización.
+        <ul>
+          <li>
+            Modelo OSI (7 capas): Es un modelo conceptual y pedagógico.
+            <ul>
+              <li>
+                Capas: Física, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Modelo TCP/IP (4 capas): Es el modelo real que usa Internet.
+            <ul>
+              <li>
+                Capas: Acceso a la Red, Internet, Transporte y Aplicación.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Diferencia clave: OSI es un marco teórico; TCP/IP es la implementación práctica.
+          </li>
+        </ul>
+        <h5>3. Protocolos de Red</h5>
+        Son las "reglas del juego" que permiten que los dispositivos se entiendan.
+        <ul>
+          <li>
+            IP (Internet Protocol): Se encarga del direccionamiento y enrutamiento de paquetes.
+          </li>
+          <li>
+            TCP/UDP: Controlan cómo se envían los datos
+          </li>
+          <li>
+            HTTP/HTTPS: Para la navegación web.
+          </li>
+          <li>
+            DNS: Traduce nombres de dominio (google.com) a direcciones IP.
+          </li>
+        </ul>
+        <h5>4. Topologías de Red</h5>
+        Es la forma física o lógica en la que se conectan los nodos.
+        <ul>
+          <li>
+            Estrella: Todos se conectan a un nodo central. Es la más común hoy.
+          </li>
+          <li>
+            Bus: Todos comparten un solo cable
+          </li>
+          <li>
+            Anillo: Los datos viajan en círculo de un nodo a otro.
+          </li>
+          <li>
+            Malla: Todos están conectados con todos.
+          </li>
+        </ul>
+        <h5>5. Software de Red y Simuladores</h5>
+        Herramientas para configurar, gestionar y probar redes antes de instalarlas físicamente.
+        <ul>
+          <li>
+            Cisco Packet Tracer: Ideal para estudiantes; permite arrastrar dispositivos y ver cómo 
+            fluyen los paquetes.
+          </li>
+          <li>
+            GNS3: Más avanzado; permite emular sistemas operativos reales de red.
+          </li>
+          <li>
+            Wireshark: Analizador de protocolos (para "ver" el tráfico real que pasa por un cable).
+          </li>
+        </ul>
+        <h5>6. Dispositivos de Red (Hardware)</h5>
+        <ul>
+          <li>
+            Router (Enrutador): Une redes diferentes y decide la mejor ruta para los datos.
+          </li>
+          <img src="../img/Router.png" alt="foto">
+          <li>
+            Switch (Conmutador): Conecta dispositivos dentro de una misma red local (LAN).
+          </li>
+          <img src="../img/Switch.ong.jpg" alt="">
+          <li>
+            Modem: Convierte la señal del proveedor de internet en una señal digital.
+          </li>
+          <img src="../img/Modem.png" alt="foto">
+          <li>
+            Access Point (Punto de Acceso): Permite la conexión inalámbrica (Wi-Fi).
+          </li>
+          <br>
+          <img src="../img/AccessPoint.png" alt="foto">
+        </ul>
+        <h5>7. Código de Colores</h5>
+        Para que el cable Ethernet funcione, los hilos internos deben seguir un 
+        orden estándar en el conector RJ45.
+        <ul>
+          <li>
+            Norma T568B
+            <ul>
+              1. Blanco-Naranja
+              <br>
+              2. Naranja
+              <br>
+              3. Blanco-Verde
+              <br>
+              4. Azul
+              <br>
+              5. Blanco-azul
+              <br>
+              6. Verde
+              <br>
+              7. Blanco-Marron
+              <br>
+              8. Marron
+            </ul>
+          </li>
+          <li>
+            Norma T568A
+            <ul>
+              1. Blanco-Verde
+              <br>
+              2. Verde
+              <br>
+              3. Blanco-Naranja
+              <br>
+              4. Azul
+              <br>
+              5. Blanco-azul
+              <br>
+              6. Naranja
+              <br>
+              7. Blanco-Marron
+              <br>
+              8. Marron
+              <br>
+              <img src="../img/cables.png" alt="">
+            </ul>
+          </li>
+        </ul>
+        
+  </section>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
